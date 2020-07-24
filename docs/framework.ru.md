@@ -48,7 +48,7 @@ bot.run_polling(skip_updates=True) # О запуске будет написан
 Для создания хендлеров воспользуйтесь атрибутом бота `on`  
 Типы хендлеров: `message`, `chat_message` и основной `message_handler`
 
-Хендлеры для `message` и `chat_message` просто добавляют добавляют дополнительные правила: `vkbottle.framework.rule.PrivateMessage` или `vkbottle.framework.rule.ChatMessage`
+Хендлеры для `message` и `chat_message` просто добавляют дополнительные правила: `vkbottle.framework.rule.PrivateMessage` или `vkbottle.framework.rule.ChatMessage`
 
 Для добавления хендлеров в обработчик можно использовать два интерфейса: декораторы и функциональный
 
